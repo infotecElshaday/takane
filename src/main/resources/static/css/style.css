@@ -1,0 +1,198 @@
+/*
+   STYLE DA PÁGINA DE FRAGMENTO
+*/
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #00688B;
+	overflow-x: hidden;
+}
+
+body {
+	padding-top: 70px;
+}
+
+#takNavbar {
+	padding: 100;
+	height: auto;
+	border-bottom: 2px solid #000080;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#takHome {
+	margin-top: 45px;
+}
+
+#takHome h3{
+	color: white;
+	text-align: center;
+	margin-top: 1opx;
+}
+
+#takData {
+	text-align: right;
+	float: right;
+	font-size: 15px;
+	color: #FFFFFF;
+	font-family: inherit;
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+#takSubMenus a {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 200;
+	color: #000000;
+}
+
+#takSubMenus a:hover {
+	background-color: #0000FF;
+	font-family: sans-serif;
+	font-weight: 200;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: 2px solid #00008B;
+}
+
+#takFooter {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	background-color: #00688B;
+}
+
+.footer-copy {
+	font-size: 15px;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+/*
+   STYLE DA PÁGINA DE LOGIN
+*/
+#takDatas {
+	float: right;
+	text-align: right;
+	background-color: transparent;
+	position: relative;
+	line-height: auto;
+	margin-top: 6px;
+	color: #000000;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: 400;
+}
+
+#takCentro {
+	width: 100%;
+	height: 420px;
+}
+
+.user_card {
+	height: 380px;
+	width: 440px;
+	margin-top: 70px;
+	margin-bottom: auto;
+	background: 		#000080;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	border-radius: 7px;
+}
+
+#takHeart {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#boaVinda {
+	font-size: 23px;
+	font-family: inherit;
+	font-weight: 300;
+	color: white;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.brand_logo_container {
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #60a3bc;
+	padding: 10px;
+	text-align: center;
+}
+
+.brand_logo {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.form_container {
+	margin-top: 20px;
+}
+
+.login_btn {
+	width: 100%;
+	background: #60a3bc;
+	color: white;
+	font-size: 15px;
+	height: 40px;
+}
+
+.login_btn:hover {
+	background: #FFFFFF;
+	border: 0;
+}
+
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.login_container {
+	padding: 0 2rem;
+}
+
+.input-group-text {
+	background: #60a3bc;
+	color: white;
+	border: 0;
+	border-radius: 0.25rem 0 0 0.25rem;
+	height: 38px;
+}
+
+.col-sm-6, .card-link, .col-sm-8, .col-sm-4 {
+	font-size: 15px;
+	font-family: sans-serif;
+	color: white;
+	height: 15px;
+}
+
+#text a:hover {
+	color: #000000;
+	transition: 0.5s;
+	opacity: 0.7;
+}
+
