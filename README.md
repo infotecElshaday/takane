@@ -1,0 +1,2 @@
+# takane
+E-Commerce Takane
